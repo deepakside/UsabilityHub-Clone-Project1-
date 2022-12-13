@@ -1,0 +1,260 @@
+@media screen and (max-width : 991px){
+  h1{
+    font-size: 3.5rem;
+  }
+  
+  h2{
+    font-size: 2.7rem;
+  }
+  
+  h3{
+    font-size: 2rem;
+  }
+  
+  h4{
+    font-size: 1.2rem;
+  }
+  
+  p{
+    font-size: 1.5rem;
+  }
+  
+  a{
+    font-size: 1.4rem;
+  }
+  
+  li{
+    font-size: 1.3rem;
+  }
+  
+  button{
+    font-size: 1.3rem;
+  }
+  
+  .ham{
+    display: initial;
+    margin-right: 2rem;
+  }
+
+  .menus{
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
+    width: 95%;
+    border-radius: 1rem;
+    margin-inline: auto;
+    top: -50rem;
+    max-height: fit-content;
+    box-shadow: 0 0 10px var(--prime-text-color);
+    transition: 0.5s ease-in-out;
+  }
+
+  .menus.toggle{
+    top: 8rem;
+    transition: 0.5s ease-in-out;
+  }
+
+  .sec2-graphics{
+    flex-wrap: wrap;
+  }
+
+  .getstart{
+    padding: 1.2rem 3rem 1.2rem 3rem;
+  }
+
+  .sec7-imagelinks{
+    flex-wrap: wrap;
+  }
+
+  .img1, .img2, .img3, .img4{
+    width: calc(50% - 2rem);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 3.3rem;
+  }
+  
+  h2{
+    font-size: 2.6rem;
+  }
+  
+  h3{
+    font-size: 2rem;
+  }
+  
+  h4{
+    font-size: 1.2rem;
+  }
+  
+  p{
+    font-size: 1.3rem;
+  }
+  
+  a{
+    font-size: 1.3rem;
+  }
+  
+  li{
+    font-size: 1.2rem;
+  }
+  
+  button{
+    font-size: 1.2rem;
+  }
+
+  .ctn1, .ctn2, .ctn3, .ctn4, .ctn5,.ctn6{
+    width: calc(50% - 2rem);
+  }
+
+  .sec4, .sec5, .sec6{
+    flex-direction: column;
+  }
+
+  .sec4-img{
+    max-width: 100vw;
+  }
+
+  .sec4-content{
+    max-width: 100vw;
+  }
+
+  .sec5-img{
+    max-width: 100vw;
+  }
+
+  .sec5-content{
+    max-width: 100vw;
+  }
+
+  .sec6-img{
+    max-width: 100vw;
+  }
+
+  .sec6-content{
+    max-width: 100vw;
+  }
+
+  .sec1{
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .mdiv1{
+    max-width: 100vw;
+  }
+
+  .mdiv2{
+    max-width: 100vw;
+  }
+
+  .medium-btn{
+    width: calc(100% - 2rem);
+    padding-inline: 0;
+    font-size: 1.8rem;
+    font-weight: normal;
+  }
+
+  .sec8-under{
+    flex-direction: column-reverse;
+  }
+
+  .sec8-img{
+    max-width: 100vw;
+  }
+
+  .sec8-text{
+    max-width: 100vw;
+  }
+
+  .footer{
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+  }
+  .ftrlogo{
+    flex-basis: 0;
+  }
+
+  .link1, .link2, .link3{
+    flex-basis: 0;
+    margin-top: 0;
+  }
+
+  .link1 a, .link2 a, .link3 a{
+    padding: 0;
+  }
+
+  .banner2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .banner2 h4, .banner2 img{
+    margin: 0;
+  }
+
+  .img1, .img2, .img3, .img4{
+    width: calc(100% - 2rem);
+  }
+
+  .ftrlogo img{
+    margin-left: -1rem;
+  }
+}
+
+@media screen and (max-width: 479px){
+  h1{
+    font-size: 3.2rem;
+  }
+  
+  h2{
+    font-size: 2.5rem;
+  }
+  
+  h3{
+    font-size: 1.8rem;
+  }
+  
+  h4{
+    font-size: 1rem;
+  }
+  
+  p{
+    font-size: 1.3rem;
+  }
+  
+  a{
+    font-size: 1.4rem;
+  }
+  
+  li{
+    font-size: 1.1rem;
+  }
+  
+  button{
+    font-size: 1.1rem;
+  }
+
+  .ctn1, .ctn2, .ctn3, .ctn4, .ctn5,.ctn6{
+    width: calc(100% - 2rem);
+  }
+
+  .logonav{
+    width: 12rem;
+  }
+
+  .tester{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .ftrlogo img{
+    width: 14rem;
+    margin-left: -1rem;
+  }
+}
